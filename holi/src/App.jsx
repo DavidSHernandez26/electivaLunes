@@ -5,8 +5,10 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
+  <>
   Nuestro proyecto se ve asi
-  
+  </>
+
 }
 
 export default App
