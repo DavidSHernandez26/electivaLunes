@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Manual de Marca</title>
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <!-- contentsquare-->
 <script src="https://t.contentsquare.net/uxa/1b6e1bf80d657.js"></script>
@@ -37,18 +35,16 @@ if(f=!1,v=d.querySelector('#vwoCode'),cc={},-1<d.URL.indexOf('__vwo_disable__')|
 
 <!--Whatsapp button-->
 <script>
-    window._2chatConfig = {
+  window._2chatConfig = {
     phoneNumber: '+573222390432',
     accountName: `¡Te damos la bienvenida!`,
     statusMessage: `Solemos responder en menos de una hora`,
-    chatMessage: `¡Hola! 👋
-Cómo podemos ayudarte?`,
+    chatMessage: `¡Hola! 👋\nCómo podemos ayudarte?`,
     placeholder: 'Holi klok',
     position: 'right',
     colorScheme: 'automatic',
     showNotification: false,
   };
-
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -57,7 +53,6 @@ Cómo podemos ayudarte?`,
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', '_2chat'));
 </script>
-<!-- ✅ GOOGLE TAG MANAGER -->
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -67,229 +62,179 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WXZTKJDF');</script>
 <!-- End Google Tag Manager -->
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YNEETYED5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4YNEETYED5');
-</script>
 <style>
 
 /* =====================
 PALETA
 ===================== */
 :root{
- --purple:#0F0326;
- --green:#84A07C;
- --white:#F4F4F9;
+  --purple:#0F0326;
+  --green:#84A07C;
+  --white:#F4F4F9;
 }
 
 /* =====================
 BASE
 ===================== */
 body{
-font-family:
--apple-system,
-BlinkMacSystemFont,
-"SF Pro Display",
-"SF Pro Text",
-"Helvetica Neue",
-Helvetica,
-Arial,
-sans-serif;
-
-transition:.35s ease;
-margin:0;
-letter-spacing:-0.2px;
--webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing:grayscale;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "SF Pro Text",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  transition:.35s ease;
+  margin:0;
+  letter-spacing:-0.2px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 h1,h2,h3,h4{
-font-weight:600;
-letter-spacing:-0.5px;
+  font-weight:600;
+  letter-spacing:-0.5px;
 }
-
-h1{
-font-size:52px;
-}
-
-h2{
-font-size:38px;
-}
-
+h1{ font-size:52px; }
+h2{ font-size:38px; }
 p{
-font-size:18px;
-line-height:1.7;
-opacity:.85;
+  font-size:18px;
+  line-height:1.7;
+  opacity:.85;
 }
+
 /* =====================
 MODOS
 ===================== */
 .dark-mode{
-background:var(--purple);
-color:white;
+  background:var(--purple);
+  color:white;
 }
-
 .light-mode{
-background:var(--green);
-color:var(--purple);
+  background:var(--green);
+  color:var(--purple);
 }
 
 /* =====================
 SECCIONES
 ===================== */
 section{
-padding:70px 0;
+  padding:70px 0;
 }
-
 .brand-container{
-max-width:1100px;
-margin:auto;
-padding:0 20px;
+  max-width:1100px;
+  margin:auto;
+  padding:0 20px;
 }
 
 /* =====================
 LOGOS
 ===================== */
 .brand-logo{
-width:220px;
-transition:.3s;
+  width:220px;
+  transition:.3s;
 }
-
 .logo-small{
-width:180px;
+  width:180px;
 }
 
 /* =====================
 DIVIDER
 ===================== */
 .divider{
-width:60px;
-height:3px;
-background:currentColor;
-opacity:.3;
-margin:25px 0;
-border-radius:20px;
+  width:60px;
+  height:3px;
+  background:currentColor;
+  opacity:.3;
+  margin:25px 0;
+  border-radius:20px;
 }
 
 /* =====================
-BOTON
+BOTON TEMA
 ===================== */
 .theme-btn{
-position:fixed;
-top:25px;
-right:25px;
-border:none;
-padding:12px 20px;
-border-radius:30px;
-font-weight:600;
-cursor:pointer;
-z-index:999;
+  position:fixed;
+  top:25px;
+  right:25px;
+  border:none;
+  padding:12px 20px;
+  border-radius:30px;
+  font-weight:600;
+  cursor:pointer;
+  z-index:999;
 }
-
 .dark-mode .theme-btn{
-background:white;
-color:black;
+  background:white;
+  color:black;
 }
-
 .light-mode .theme-btn{
-background:#0F0326;
-color:white;
+  background:#0F0326;
+  color:white;
 }
 
 /* =====================
 PALETA TARJETAS
 ===================== */
 .palette-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-gap:40px;
-margin-top:50px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:40px;
+  margin-top:50px;
 }
-
 .color-card{
-border-radius:20px;
-overflow:hidden;
-background:rgba(255,255,255,.08);
-backdrop-filter:blur(10px);
-transition:.3s;
+  border-radius:20px;
+  overflow:hidden;
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(10px);
+  transition:.3s;
 }
-
 .color-card:hover{
-transform:translateY(-6px);
+  transform:translateY(-6px);
 }
-
 .color-preview{
-height:200px;
-display:flex;
-align-items:center;
-justify-content:center;
+  height:200px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
-
 .color-preview img{
-width:120px;
+  width:120px;
 }
-
 .color-info{
-padding:25px;
+  padding:25px;
 }
 
 /* =====================
 MOCKUPS
 ===================== */
-
 .mockup-wrapper{
-margin-top:50px;
-display:flex;
-justify-content:center;
+  margin-top:50px;
+  display:flex;
+  justify-content:center;
 }
-
 .mockup-img{
-width:100%;
-max-width:1100px;
-border-radius:20px;
-transition:.4s;
+  width:100%;
+  max-width:1100px;
+  border-radius:20px;
+  transition:.4s;
 }
-
 .mockup-img:hover{
-transform:scale(1.01);
+  transform:scale(1.01);
 }
-
 .dark-mode .mockup-img{
-filter:drop-shadow(0 25px 60px rgba(0,0,0,.6));
+  filter:drop-shadow(0 25px 60px rgba(0,0,0,.6));
 }
-
 .light-mode .mockup-img{
-filter:drop-shadow(0 15px 40px rgba(0,0,0,.25));
+  filter:drop-shadow(0 15px 40px rgba(0,0,0,.25));
 }
-
-</style>
-</head>
-
-<body class="dark-mode">
-
-<!-- ✅ GTM NOSCRIPT -->
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXZTKJDF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<button class="theme-btn" onclick="toggleTheme()">
-Modo Claro / Oscuro
-</button>
-
-<style>
 
 /* ================= CLEARSPACE ================= */
-
 .clearspace-section{
   padding:60px 8%;
   transition:0.4s;
 }
-
 .clearspace-header{
   display:flex;
   justify-content:space-between;
@@ -297,28 +242,20 @@ Modo Claro / Oscuro
   gap:40px;
   margin-bottom:40px;
 }
-
 .clearspace-header h2{
   font-size:48px;
   font-weight:700;
 }
-
 .clearspace-header p{
   max-width:500px;
   opacity:.8;
   line-height:1.6;
 }
-
-/* GRID */
-
 .clearspace-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:40px;
 }
-
-/* TARJETAS */
-
 .clear-card{
   background:#111;
   border-radius:18px;
@@ -328,324 +265,477 @@ Modo Claro / Oscuro
   align-items:center;
   transition:.4s;
 }
-
-/* logos SIN borde */
 .clear-card img{
   width:260px;
   border:none;
   box-shadow:none;
 }
-
-/* ===== MODO CLARO ===== */
-
 body.light-mode .clearspace-section{
   background:#826754;
-  color: #F4F4F9;
+  color:#F4F4F9;
 }
-
 body.light-mode .clear-card{
   background:#0F0326;
 }
-
 body.light-mode .logo-dark{
   display:none;
 }
-
-/* ===== MODO OSCURO ===== */
-
 body.dark-mode .clearspace-section{
   background:#84A07C;
-  color: #F4F4F9;
+  color:#F4F4F9;
 }
-
 body.dark-mode .logo-light{
   display:none;
 }
 
-/* RESPONSIVE */
-
-@media(max-width:900px){
-
-.clearspace-header{
-  flex-direction:column;
-}
-
-.clearspace-grid{
-  grid-template-columns:1fr;
-}
-}
 /* =========================
-SAFE APPLE APPEAR
+FADE UP ANIMATION
 ========================= */
-
 .fade-up{
-opacity:0;
-transform:translateY(40px);
-transition:
-opacity .9s ease,
-transform .9s cubic-bezier(.16,1,.3,1);
+  opacity:0;
+  transform:translateY(40px);
+  transition:
+    opacity .9s ease,
+    transform .9s cubic-bezier(.16,1,.3,1);
 }
-
 .fade-up.show{
-opacity:1;
-transform:translateY(0);
+  opacity:1;
+  transform:translateY(0);
 }
+
+/* =========================
+ACCORDION / FAQ
+========================= */
+.dark-mode .accordion-item{
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:12px;
+  margin-bottom:12px;
+}
+.dark-mode .accordion-button{
+  background:transparent;
+  color:white;
+}
+.dark-mode .accordion-button:not(.collapsed){
+  background:rgba(255,255,255,.1);
+  color:white;
+  box-shadow:none;
+}
+.dark-mode .accordion-body{
+  color:rgba(255,255,255,.75);
+}
+.light-mode .accordion-item{
+  background:rgba(0,0,0,.06);
+  border:1px solid rgba(0,0,0,.12);
+  border-radius:12px;
+  margin-bottom:12px;
+}
+.light-mode .accordion-button{
+  background:transparent;
+  color:var(--purple);
+}
+.light-mode .accordion-button:not(.collapsed){
+  background:rgba(0,0,0,.08);
+  color:var(--purple);
+  box-shadow:none;
+}
+
+/* =========================
+CTA BUTTONS
+========================= */
+.dark-mode .btn-dark{
+  background:white;
+  color:#0F0326;
+  border:none;
+  padding:14px 36px;
+  border-radius:30px;
+  font-weight:600;
+  font-size:16px;
+  transition:.3s;
+}
+.dark-mode .btn-dark:hover{
+  background:#84A07C;
+  color:white;
+  transform:translateY(-2px);
+}
+.light-mode .btn-dark{
+  background:#0F0326;
+  color:white;
+  border:none;
+  padding:14px 36px;
+  border-radius:30px;
+  font-weight:600;
+  font-size:16px;
+  transition:.3s;
+}
+.light-mode .btn-dark:hover{
+  background:#84A07C;
+  color:white;
+  transform:translateY(-2px);
+}
+
+/* FOOTER */
+footer a{
+  color:inherit;
+  opacity:.7;
+  text-decoration:none;
+}
+footer a:hover{
+  opacity:1;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .clearspace-header{ flex-direction:column; }
+  .clearspace-grid{ grid-template-columns:1fr; }
+  h1{ font-size:36px; }
+  h2{ font-size:28px; }
+}
+
 </style>
+</head>
 
-<!-- PORTADA -->
-<!-- HERO APPLE STYLE -->
-<section class="text-center">
-<div class="brand-container">
+<body class="dark-mode">
 
-<img id="mainLogo"
-src="img/Logo1.png"
-class="brand-logo mb-4">
+<!-- ✅ GTM NOSCRIPT -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXZTKJDF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-<h1>
-Be: Confident.
-</h1>
+<button class="theme-btn" onclick="toggleTheme()">
+  Modo Claro / Oscuro
+</button>
 
-<p class="mt-4">
-Be: Confident transforma la forma en que organizas,
-exploras y defines tu estilo personal mediante
-un closet virtual inteligente.
-</p>
-
-</div>
+<!-- ===================== PORTADA ===================== -->
+<section class="text-center fade-up">
+  <div class="brand-container">
+    <img id="mainLogo" src="img/Logo1.png" class="brand-logo mb-4">
+    <h1>Be: Confident.</h1>
+    <p class="mt-4">
+      Be: Confident transforma la forma en que organizas,
+      exploras y defines tu estilo personal mediante
+      un closet virtual inteligente.
+    </p>
+  </div>
 </section>
 
-<!-- CONCEPTO -->
-<section>
-<div class="brand-container">
-
-<h2>Concepto de Marca</h2>
-<div class="divider"></div>
-
-<div class="row align-items-center">
-
-<div class="col-md-4 text-center">
-<img id="logoConcepto" src="img/Logo1.png" class="logo-small">
-</div>
-
-<div class="col-md-8">
-<p>
-Be: Confident demuestra que el color no elimina la elegancia.
-Permite experimentar libremente con el estilo personal mediante
-un closet virtual inteligente.
-</p>
-</div>
-
-</div>
-</div>
+<!-- ===================== CONCEPTO ===================== -->
+<section class="fade-up">
+  <div class="brand-container">
+    <h2>Concepto de Marca</h2>
+    <div class="divider"></div>
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img id="logoConcepto" src="img/Logo1.png" class="logo-small">
+      </div>
+      <div class="col-md-8">
+        <p>
+          Be: Confident demuestra que el color no elimina la elegancia.
+          Permite experimentar libremente con el estilo personal mediante
+          un closet virtual inteligente.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- SIGNIFICADO -->
-<section>
-<div class="brand-container">
-
-<h2>Significado del Logo</h2>
-<div class="divider"></div>
-
-<p>
-El logo de Be: Confident, es un closet separado por puertas B del nombre, haciendo a su vez las alas de una mariposa, el logo representa el caos y secretismo que existe siempre en todos los armarios, Be confident no solo no oculta que existe si no que se apropia de esto para decir, aca hay espacio para que se sientan libres de experimentar nuevas formas de vestir o de mejorar su estilo de vestir
-</p>
-
-</div>
+<!-- ===================== SIGNIFICADO ===================== -->
+<section class="fade-up">
+  <div class="brand-container">
+    <h2>Significado del Logo</h2>
+    <div class="divider"></div>
+    <p>
+      El logo de Be: Confident es un closet separado por puertas B del nombre,
+      haciendo a su vez las alas de una mariposa. El logo representa el caos
+      y secretismo que existe siempre en todos los armarios. Be: Confident no
+      solo no oculta que existe, sino que se apropia de esto para decir: aquí
+      hay espacio para que se sientan libres de experimentar nuevas formas de
+      vestir o de mejorar su estilo.
+    </p>
+  </div>
 </section>
 
-<!-- VERSIONES -->
-<section class="text-center">
-<div class="brand-container">
-
-<h2>Versiones del Logo</h2>
-<div class="divider mx-auto"></div>
-
-<div class="row mt-4">
-
-<div class="col-md-6">
-<h4>Modo Oscuro</h4>
-<img src="img/Logo1.png" class="logo-small">
-</div>
-
-<div class="col-md-6">
-<h4>Modo Claro</h4>
-<img src="img/Logo2.png" class="logo-small">
-</div>
-
-</div>
-
-</div>
+<!-- ===================== VERSIONES ===================== -->
+<section class="text-center fade-up">
+  <div class="brand-container">
+    <h2>Versiones del Logo</h2>
+    <div class="divider mx-auto"></div>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <h4>Modo Oscuro</h4>
+        <img src="img/Logo1.png" class="logo-small">
+      </div>
+      <div class="col-md-6">
+        <h4>Modo Claro</h4>
+        <img src="img/Logo2.png" class="logo-small">
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- SISTEMA COLOR -->
-<section>
-<div class="brand-container">
-
-<h2>Sistema de Color del Logo</h2>
-<div class="divider"></div>
-
-<div class="palette-grid">
-
-<div class="color-card">
-<div class="color-preview" style="background:#0F0326;">
-<img id="logoPurple" src="img/Logo2.png">
-</div>
-<div class="color-info">
-<h4>Morado Corporativo</h4>
-<p>HEX #0F0326</p>
-</div>
-</div>
-
-<div class="color-card">
-<div class="color-preview" style="background:#84A07C;">
-<img id="logoGreen" src="img/Logo1.png">
-</div>
-<div class="color-info">
-<h4>Verde Corporativo</h4>
-<p>HEX #84A07C</p>
-</div>
-</div>
-
-</div>
-</div>
+<!-- ===================== SISTEMA DE COLOR ===================== -->
+<section class="fade-up">
+  <div class="brand-container">
+    <h2>Sistema de Color del Logo</h2>
+    <div class="divider"></div>
+    <div class="palette-grid">
+      <div class="color-card">
+        <div class="color-preview" style="background:#0F0326;">
+          <img id="logoPurple" src="img/Logo2.png">
+        </div>
+        <div class="color-info">
+          <h4>Morado Corporativo</h4>
+          <p>HEX #0F0326</p>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color-preview" style="background:#84A07C;">
+          <img id="logoGreen" src="img/Logo1.png">
+        </div>
+        <div class="color-info">
+          <h4>Verde Corporativo</h4>
+          <p>HEX #84A07C</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- ================= CLEARSPACE ================= -->
-<section class="clearspace-section">
+
+<!-- ===================== CLEARSPACE ===================== -->
+<section class="clearspace-section fade-up">
   <div class="clearspace-header">
     <h2>Clearspace</h2>
-
     <p>
       Nuestra marca necesita espacio para respirar y destacar.
       El área de protección alrededor del símbolo garantiza
       legibilidad y presencia visual en cualquier aplicación.
       En este momento nos reservamos el uso de cualquier logo nuestro
       para garantizar el pleno desarrollo de be: Confident.
-      El espació entre lineas debe ser el espacio dentro de cada B
+      El espacio entre líneas debe ser el espacio dentro de cada B.
     </p>
-    
   </div>
-
   <div class="clearspace-grid">
-
-    <!-- Logo Icono -->
     <div class="clear-card">
       <img src="img/Logo1.png" class="logo-dark">
       <img src="img/Logo2.png" class="logo-light">
     </div>
-
-    <!-- Logo Wordmark -->
     <div class="clear-card">
       <img src="img/Logo1.png" class="logo-light">
       <img src="img/Logo2.png" class="logo-dark">
     </div>
   </div>
 </section>
-<!-- TIPOGRAFIA -->
-<section class="text-center">
-<div class="brand-container">
 
-<h2>Tipografía</h2>
-<div class="divider mx-auto"></div>
-
-<p class="mt-4">
-Be: Confident adopta una tipografía basada en el sistema
-tipográfico de Apple para garantizar claridad,
-modernidad y legibilidad en cualquier dispositivo.
-</p>
-
-<div class="row mt-5">
-
-<div class="col-md-6">
-<h4>Apple Devices</h4>
-<p>
-En dispositivos Apple se utiliza automáticamente
-la tipografía nativa <strong>San Francisco (SF Pro)</strong>,
-optimizando lectura, peso visual y rendimiento.
-</p>
-</div>
-
-<div class="col-md-6">
-<h4>Otros Dispositivos</h4>
-<p>
-Fuera del ecosistema Apple se emplea una cadena
-tipográfica equivalente basada en Helvetica Neue
-y fuentes del sistema para mantener coherencia visual.
-</p>
-</div>
-
-</div>
-
-</div>
+<!-- ===================== TIPOGRAFÍA ===================== -->
+<section class="text-center fade-up">
+  <div class="brand-container">
+    <h2>Tipografía</h2>
+    <div class="divider mx-auto"></div>
+    <p class="mt-4">
+      Be: Confident adopta una tipografía basada en el sistema
+      tipográfico de Apple para garantizar claridad,
+      modernidad y legibilidad en cualquier dispositivo.
+    </p>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h4>Apple Devices</h4>
+        <p>
+          En dispositivos Apple se utiliza automáticamente
+          la tipografía nativa <strong>San Francisco (SF Pro)</strong>,
+          optimizando lectura, peso visual y rendimiento.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h4>Otros Dispositivos</h4>
+        <p>
+          Fuera del ecosistema Apple se emplea una cadena
+          tipográfica equivalente basada en Helvetica Neue
+          y fuentes del sistema para mantener coherencia visual.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- MOCKUPS -->
-<section>
-<div class="brand-container text-center">
-
-<h2>Mockups de Aplicación</h2>
-<div class="divider mx-auto"></div>
-
-<p>Aplicación de closet virtual en distintos dispositivos.</p>
-
-<div class="mockup-wrapper">
-<img src="img/Mockups.png" class="mockup-img">
-</div>
-
-</div>
+<!-- ===================== MOCKUPS ===================== -->
+<section class="fade-up">
+  <div class="brand-container text-center">
+    <h2>Mockups de Aplicación</h2>
+    <div class="divider mx-auto"></div>
+    <p>Aplicación de closet virtual en distintos dispositivos.</p>
+    <div class="mockup-wrapper">
+      <img src="img/Mockups.png" class="mockup-img">
+    </div>
+  </div>
 </section>
+
+<!-- ================= BENEFICIOS ================= -->
+<section id="beneficios" class="fade-up">
+  <div class="brand-container text-center">
+    <h2>¿Por qué usar Be: Confident?</h2>
+    <div class="divider mx-auto"></div>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <h4>Organización Inteligente</h4>
+        <p>Gestiona tu ropa de forma digital y encuentra outfits en segundos.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Estilo Personal</h4>
+        <p>Descubre combinaciones nuevas sin perder tu esencia.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Ahorro de Tiempo</h4>
+        <p>Reduce el tiempo que gastas decidiendo qué ponerte cada día.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA PRINCIPAL ================= -->
+<section class="text-center fade-up">
+  <div class="brand-container">
+    <h2>Empieza hoy mismo</h2>
+    <div class="divider mx-auto"></div>
+    <button class="btn btn-dark mt-4" data-gtm="cta_principal_click">
+      Crear mi closet virtual
+    </button>
+  </div>
+</section>
+
+<!-- ================= CÓMO FUNCIONA ================= -->
+<section class="fade-up">
+  <div class="brand-container">
+    <h2>¿Cómo funciona?</h2>
+    <div class="divider"></div>
+    <p>
+      Sube tu ropa, organiza por categorías y deja que Be: Confident
+      te sugiera combinaciones inteligentes según tu estilo.
+    </p>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIOS ================= -->
+<section class="text-center fade-up">
+  <div class="brand-container">
+    <h2>Lo que dicen nuestros usuarios</h2>
+    <div class="divider mx-auto"></div>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <p>"Me ahorra muchísimo tiempo cada mañana."</p>
+        <strong>- Laura</strong>
+      </div>
+      <div class="col-md-4">
+        <p>"Ahora sí uso toda mi ropa."</p>
+        <strong>- Andrés</strong>
+      </div>
+      <div class="col-md-4">
+        <p>"Me ayudó a mejorar mi estilo."</p>
+        <strong>- Camila</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA 2 ================= -->
+<section class="text-center fade-up">
+  <div class="brand-container">
+    <h2>Transforma tu estilo hoy</h2>
+    <button class="btn btn-dark mt-4" data-gtm="cta_secundario_click">
+      Comenzar ahora
+    </button>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="fade-up">
+  <div class="brand-container">
+    <h2>Preguntas Frecuentes</h2>
+    <div class="divider"></div>
+    <div class="accordion" id="faq">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1" data-gtm="faq_click">
+            ¿Es gratis?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Sí, puedes empezar gratis.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2" data-gtm="faq_click">
+            ¿Funciona en móvil?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Sí, funciona en todos los dispositivos.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRE-FOOTER ================= -->
+<section class="text-center fade-up">
+  <div class="brand-container">
+    <h2>¿Listo para cambiar tu estilo?</h2>
+    <button class="btn btn-dark mt-4" data-gtm="cta_prefinal_click">
+      Crear cuenta
+    </button>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer style="padding:40px;text-align:center;opacity:.7">
+  <p>© 2026 Be: Confident</p>
+  <p>
+    <a href="#" data-gtm="footer_link">Privacidad</a> |
+    <a href="#" data-gtm="footer_link">Términos</a>
+  </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
 
 function toggleTheme(){
+  const body = document.body;
+  const darkLogos = ["mainLogo","logoConcepto","logoGreen"];
+  const lightLogos = ["logoPurple"];
 
-const body=document.body;
-
-const darkLogos=["mainLogo","logoConcepto","logoGreen"];
-const lightLogos=["logoPurple"];
-
-if(body.classList.contains("dark-mode")){
-
-body.classList.replace("dark-mode","light-mode");
-
-darkLogos.forEach(id=>{
-let el=document.getElementById(id);
-if(el) el.src="img/Logo2.png";
-});
-
-lightLogos.forEach(id=>{
-let el=document.getElementById(id);
-if(el) el.src="img/Logo1.png";
-});
-
-localStorage.setItem("theme","light");
-
-}else{
-
-body.classList.replace("light-mode","dark-mode");
-
-darkLogos.forEach(id=>{
-let el=document.getElementById(id);
-if(el) el.src="img/Logo1.png";
-});
-
-lightLogos.forEach(id=>{
-let el=document.getElementById(id);
-if(el) el.src="img/Logo2.png";
-});
-
-localStorage.setItem("theme","dark");
-}
+  if(body.classList.contains("dark-mode")){
+    body.classList.replace("dark-mode","light-mode");
+    darkLogos.forEach(id=>{ let el=document.getElementById(id); if(el) el.src="img/Logo2.png"; });
+    lightLogos.forEach(id=>{ let el=document.getElementById(id); if(el) el.src="img/Logo1.png"; });
+    localStorage.setItem("theme","light");
+  } else {
+    body.classList.replace("light-mode","dark-mode");
+    darkLogos.forEach(id=>{ let el=document.getElementById(id); if(el) el.src="img/Logo1.png"; });
+    lightLogos.forEach(id=>{ let el=document.getElementById(id); if(el) el.src="img/Logo2.png"; });
+    localStorage.setItem("theme","dark");
+  }
 }
 
-window.onload=()=>{
+window.onload = () => {
+  const saved = localStorage.getItem("theme");
+  if(saved === "light"){ toggleTheme(); }
 
-const saved=localStorage.getItem("theme");
+  // Scroll observer for fade-up animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add("show");
+      }
+    });
+  }, { threshold: 0.1 });
 
-if(saved==="light"){
-toggleTheme();
-}
-
-}
+  document.querySelectorAll(".fade-up").forEach(el => observer.observe(el));
+};
 
 </script>
 
